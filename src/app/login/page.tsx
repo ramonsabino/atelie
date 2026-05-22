@@ -14,18 +14,13 @@ export default function LoginPage() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-bg-base px-6">
       <div className="w-full max-w-sm">
         <div className="text-center mb-10">
-          <Image
-            src="/logo.png"
+          <img
+            src="/logo.png?v=2"
             alt="Luana Ingrid - Ateliê de Beleza"
-            width={120}
-            height={120}
+            width={250}
+            height={250}
             className="mx-auto mb-5"
-            priority
           />
-          <h1 className="font-serif text-2xl font-bold text-brown leading-tight">
-            Luana Ingrid
-          </h1>
-          <p className="font-serif text-gold-dark text-sm mt-1">Ateliê de Beleza</p>
         </div>
 
         <form action={action} className="space-y-4">

@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Luana Ingrid - Ateliê de Beleza",
   description: "Sistema de gerenciamento do ateliê",
+  icons: { icon: "/fav.png", apple: "/fav.png" },
   appleWebApp: { capable: true, statusBarStyle: "default", title: "Luana Ingrid" },
 };
 
