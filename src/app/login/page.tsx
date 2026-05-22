@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Image from "next/image";
 import { login, type LoginState } from "@/lib/actions/auth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,9 +14,14 @@ export default function LoginPage() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-bg-base px-6">
       <div className="w-full max-w-sm">
         <div className="text-center mb-10">
-          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center mx-auto mb-5 shadow-lg">
-            <span className="text-white font-serif text-3xl font-bold">L</span>
-          </div>
+          <Image
+            src="/logo.png"
+            alt="Luana Ingrid - Ateliê de Beleza"
+            width={120}
+            height={120}
+            className="mx-auto mb-5"
+            priority
+          />
           <h1 className="font-serif text-2xl font-bold text-brown leading-tight">
             Luana Ingrid
           </h1>
